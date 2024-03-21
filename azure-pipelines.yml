@@ -25,9 +25,9 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.SourcesDirectory)\drop'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+      PathtoPublish: '$(Build.SourcesDirectory)\drop'
+      ArtifactName: 'drop'
+      publishLocation: 'Container'
 
 
 
